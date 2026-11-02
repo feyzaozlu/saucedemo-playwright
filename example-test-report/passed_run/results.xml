@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="3.9980830000000003">
+<testsuite name="cart.spec.ts" timestamp="2026-11-02T19:01:29.713Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.128" errors="0">
+<testcase name="Cart Tests › 5 - Add product to cart, verify details and remove from cart" classname="cart.spec.ts" time="1.565">
+</testcase>
+<testcase name="Cart Tests › 6 - Add multiple products to cart and verify cart badge count" classname="cart.spec.ts" time="1.563">
+</testcase>
+</testsuite>
+<testsuite name="checkout.spec.ts" timestamp="2026-11-02T19:01:29.713Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.524" errors="0">
+<testcase name="Checkout Tests › 7 - Complete checkout successfully with valid information" classname="checkout.spec.ts" time="1.678">
+</testcase>
+<testcase name="Checkout Tests › 8 - Validation error displayed when mandatory field is missing" classname="checkout.spec.ts" time="1.846">
+</testcase>
+</testsuite>
+<testsuite name="inventory.spec.ts" timestamp="2026-11-02T19:01:29.713Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.799" errors="0">
+<testcase name="Inventory Tests › 4 - Sort products by price from low to high" classname="inventory.spec.ts" time="0.799">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-11-02T19:01:29.713Z" hostname="chromium" tests="3" failures="0" skipped="0" time="2.936" errors="0">
+<testcase name="Login Tests › 1 - Successful login redirects to products page" classname="login.spec.ts" time="0.805">
+</testcase>
+<testcase name="Login Tests › 2 - Login with invalid credentials displays error message" classname="login.spec.ts" time="0.853">
+</testcase>
+<testcase name="Login Tests › 3 - Login with locked out user displays locked out error" classname="login.spec.ts" time="1.278">
+</testcase>
+</testsuite>
+</testsuites>

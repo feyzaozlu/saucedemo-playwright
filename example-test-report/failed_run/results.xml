@@ -1,0 +1,51 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="9.04252">
+<testsuite name="checkout.spec.ts" timestamp="2026-11-02T19:00:36.872Z" hostname="chromium" tests="2" failures="1" skipped="0" time="9.671" errors="0">
+<testcase name="Checkout Tests › 7 - Complete checkout successfully with valid information" classname="checkout.spec.ts" time="1.632">
+</testcase>
+<testcase name="Checkout Tests › 8 - Validation error displayed when mandatory field is missing" classname="checkout.spec.ts" time="8.039">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|checkout-Checkout-Tests-8--f8ec8--mandatory-field-is-missing-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|checkout-Checkout-Tests-8--f8ec8--mandatory-field-is-missing-chromium/error-context.md]]
+]]>
+</system-out>
+<failure message="expect(locator).toContainText(expected) failed" type="expect.toContainText">
+<![CDATA[  [chromium] › checkout.spec.ts:46:7 › Checkout Tests › 8 - Validation error displayed when mandatory field is missing 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('[data-test="error"]')
+    Expected substring: "First Name cannot be empty"
+    Received string:    "Error: First Name is required"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('[data-test="error"]') with timeout 5000ms
+      - waiting for locator('[data-test="error"]')
+        14 × locator resolved to <h3 role="alert" data-test="error">…</h3>
+           - unexpected value "Error: First Name is required"
+
+
+       at pages/CheckoutPage.ts:90
+
+      88 |     await expect(this.errorMessage).toBeVisible();
+      89 |     if (text) {
+    > 90 |       await expect(this.errorMessage).toContainText(text);
+         |                                       ^
+      91 |     }
+      92 |   }
+      93 |
+        at CheckoutPage.expectErrorMessageVisible (/Users/feyzaozlu/Desktop/saucedemo-playwright/tests/pages/CheckoutPage.ts:90:39)
+        at /Users/feyzaozlu/Desktop/saucedemo-playwright/tests/checkout.spec.ts:54:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/checkout-Checkout-Tests-8--f8ec8--mandatory-field-is-missing-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/checkout-Checkout-Tests-8--f8ec8--mandatory-field-is-missing-chromium/error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "SauceDemo UI Test Automation using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feyzaozlu/saucedemo-playwright.git"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "typescript",
+    "saucedemo",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/feyzaozlu/saucedemo-playwright/issues"
+  },
+  "homepage": "https://github.com/feyzaozlu/saucedemo-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
